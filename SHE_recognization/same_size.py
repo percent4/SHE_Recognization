@@ -1,6 +1,7 @@
 import os
 import cv2
 
+# 统一将人脸调整到80*80的灰度图像
 def resize(directory, path):
     ImagePath = directory+'/'+path
     image = cv2.imread(ImagePath)

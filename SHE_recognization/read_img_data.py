@@ -2,6 +2,8 @@ import os
 import cv2
 import pandas as pd
 
+# 获取图片的特征和标签
+
 table = []
 
 def sample(directory, path):

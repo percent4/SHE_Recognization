@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from TF_CNN import CNN
 
+# 预测图片中的人物
 # 模型保存地址
 MODEL_SAVE_PATH = 'E://logs/cnn_she_model.ckpt'
 # CNN初始化
